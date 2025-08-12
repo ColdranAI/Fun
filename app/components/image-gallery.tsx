@@ -93,6 +93,7 @@ export function ImageGallery() {
             <Image
               src={image.thumbnail}
               alt={image.alt}
+              loading="lazy"
               fill
               draggable={false}
               className="object-cover"
