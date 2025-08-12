@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Meeting Backgrounds',
-  description: 'Professional virtual backgrounds for your video calls and meetings. Download high-quality backgrounds for free.',
-  keywords: ['meeting backgrounds', 'virtual backgrounds', 'video call backgrounds', 'professional backgrounds'],
+  description: 'Fun virtual meeting backgrounds for your video calls and meetings. Download high-quality backgrounds for free.',
+  keywords: ['meeting backgrounds', 'virtual backgrounds', 'video call backgrounds', 'fun backgrounds', 'funny zoom gmeet backgrounds'],
 }
 
 export default function MeetingBackgroundsPage() {

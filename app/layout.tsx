@@ -11,16 +11,16 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Portfolio - Meeting Backgrounds & More',
-    template: '%s | Portfolio',
+    default: 'Fun by Coldran',
+    template: '%s | Fun by Coldran',
   },
-  description: 'Professional meeting backgrounds and portfolio showcase. Download high-quality virtual backgrounds for your video calls.',
+  description: 'Fun by Coldran is an initiative to create fun for the customer & startup.',
   openGraph: {
-    title: 'Portfolio - Meeting Backgrounds & More',
-    description: 'Professional meeting backgrounds and portfolio showcase. Download high-quality virtual backgrounds for your video calls.',
+    title: 'Fun by Coldran',
+    description: 'Fun by Coldran is an initiative to create fun for the customer & startup.',
     url: baseUrl,
     
-    siteName: 'Portfolio',
+    siteName: 'Fun by Coldran',
     locale: 'en_US',
     type: 'website',
   },
