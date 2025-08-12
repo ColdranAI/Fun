@@ -1,4 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
 import { MeetingBackgroundsCard } from 'app/components/meeting-backgrounds-card'
 import Image from 'next/image'
 export default function Page() {
