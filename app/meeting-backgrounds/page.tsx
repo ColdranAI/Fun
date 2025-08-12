@@ -16,10 +16,7 @@ export default function MeetingBackgroundsPage() {
           Meeting Backgrounds
         </h1>
         <p className="text-lg text-neutral-600 mb-2">
-          Professional virtual backgrounds for your video calls
-        </p>
-        <p className="text-neutral-600">
-          Click the download button below any image to save the high-resolution version to your device.
+          Funny backgrounds for your video calls specifically with your Customers.
         </p>
       </div>
 
@@ -34,16 +31,10 @@ export default function MeetingBackgroundsPage() {
 
       <ImageGallery />
 
-      <div className="mt-12 p-6 bg-neutral-50 border border-neutral-200 rounded-lg">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-2">
-          How to use these backgrounds
+      <div className="mt-12 pl-3 p-2 bg-neutral-50 border border-neutral-200 rounded-lg">
+        <h3 className="text-sm font-semibold text-neutral-900">
+          All content © original owners.
         </h3>
-        <ul className="text-neutral-600 space-y-1 text-sm">
-          <li>• Download the background image by clicking the download button</li>
-          <li>• In your video call app (Zoom, Teams, etc.), go to video settings</li>
-          <li>• Select "Virtual Background" or "Background Effects"</li>
-          <li>• Upload the downloaded image as your custom background</li>
-        </ul>
       </div>
     </div>
   )

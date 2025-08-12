@@ -14,18 +14,18 @@ const navigation: NavigationItem[] = [
   { 
     name: 'Home', 
     href: '/',
-    description: 'Welcome to my portfolio showcasing projects, meeting backgrounds, and technical writing.'
+    description: 'Coldran supports fun & unhinged behavior.'
   },
   { 
     name: 'Meeting Backgrounds', 
     href: '/meeting-backgrounds',
-    description: 'Professional virtual backgrounds for video calls. All images are automatically optimized and ready to download.'
+    description: 'Power up your video calls with funny backgrounds.'
   },
-  { 
-    name: 'Blog', 
-    href: '/blog',
-    description: 'Technical articles about development, programming languages, and software engineering best practices.'
-  },
+  // { 
+  //   name: 'Blog', 
+  //   href: '/blog',
+  //   description: 'Technical articles about development, programming languages, and software engineering best practices.'
+  // },
 ]
 
 export function SidebarClient() {
@@ -43,9 +43,11 @@ export function SidebarClient() {
       <div className="hidden lg:block w-64 bg-neutral-50 border-r border-neutral-200 h-screen fixed left-0 top-0 p-4">
         <div className="flex flex-col h-full">
           <div className="flex-1">
-            <div className="mb-6">
-              <ColdranLogo />
-              <h2 className="text-lg font-semibold text-neutral-900">
+            <div className="mb-6 flex items-center gap-2">
+              <a href="https://coldran.com" target="_blank" rel="noopener noreferrer">
+                <ColdranLogo className="hover:scale-110 transition-all" />
+              </a>
+              <h2 className="text-md font-semibold text-neutral-900">
                 Fun.Coldran.com
               </h2>
             </div>
@@ -83,6 +85,7 @@ export function SidebarClient() {
       {/* Mobile Navigation */}
       <div className="lg:hidden bg-neutral-50 border-b border-neutral-200 p-4">
         <div className="flex items-center justify-between mb-4">
+        <ColdranLogo />
           <h2 className="text-lg font-semibold text-neutral-900">
             Fun.Coldran.com
           </h2>
@@ -106,12 +109,12 @@ export function SidebarClient() {
           })}
         </nav>
         
-        {/* Mobile Page Description */}
+        {/* Mobile Page Description
         <div className="pt-3 border-t border-neutral-200">
           <p className="text-xs text-neutral-600 leading-relaxed">
             {currentDescription}
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   )

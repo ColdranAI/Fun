@@ -94,6 +94,7 @@ export function ImageGallery() {
               src={image.thumbnail}
               alt={image.alt}
               fill
+              draggable={false}
               className="object-cover"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               onError={(e) => {
@@ -117,7 +118,7 @@ export function ImageGallery() {
             <button
               onClick={() => handleDownload(image)}
               disabled={downloading === image.id}
-              className="underline hover:text-blue-600 cursor-pointer"
+              className="underline text-sm hover:text-blue-600 cursor-pointer"
             >
               {downloading === image.id ? (
                 <>
@@ -132,6 +133,11 @@ export function ImageGallery() {
           </div>
         </div>
       ))}
+      <a href="https://github.com/coldranai/fun" target="_blank" rel="noopener noreferrer" className="col-span-full text-neutral-900 hover:text-neutral-600 font-semibold transition-all border-2 border-dashed border-neutral-300 hover:border-neutral-400 transition-all rounded-lg p-4">
+        <p className="text-sm">
+          You have more? Drop a PR with more Backgrounds via{' '} Github
+        </p>
+      </a>
     </div>
   )
 }
