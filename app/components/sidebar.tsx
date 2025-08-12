@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { ColdranLogo } from './logos/coldran'
 
 interface NavigationItem {
   name: string
@@ -43,6 +44,7 @@ export function SidebarClient() {
         <div className="flex flex-col h-full">
           <div className="flex-1">
             <div className="mb-6">
+              <ColdranLogo />
               <h2 className="text-lg font-semibold text-neutral-900">
                 Fun.Coldran.com
               </h2>
