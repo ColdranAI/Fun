@@ -19,9 +19,15 @@ export const metadata: Metadata = {
     title: 'Portfolio - Meeting Backgrounds & More',
     description: 'Professional meeting backgrounds and portfolio showcase. Download high-quality virtual backgrounds for your video calls.',
     url: baseUrl,
+    
     siteName: 'Portfolio',
     locale: 'en_US',
     type: 'website',
+  },
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   robots: {
     index: true,
